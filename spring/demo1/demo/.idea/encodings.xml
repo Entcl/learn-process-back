@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/demo/spring5/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/demo/spring5/testdemo/TestDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/demo2/spring5/Dao/Impl/UserDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/demo2/spring5/Dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/demo2/spring5/Service/UserService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/demo3/spring5/Bean/Book.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/demo3/spring5/Bean/Employee.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/demo3/spring5/Test/TestBook.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/demo3/spring5/Test/TestEmp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../../demo2/demo/src/com/demo3/spring5/Bean/Book.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../../demo2/demo/src/com/demo3/spring5/Bean/Employee.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../../demo2/demo/src/com/demo3/spring5/Test/TestBook.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../../demo2/demo/src/com/demo3/spring5/Test/TestEmp.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

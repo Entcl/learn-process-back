@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    stu-->
+    <bean id="string" class="com.demo.spring5.collectionType.Abc">
+        <property name="string">
+            <array>
+                <value>value="计算机"</value>
+                <value>value="高等数学"</value>
+            </array>
+            <!--            <list></list>-->
+        </property>
+
+        <property name="list">
+            <list>
+                <value>value="张三"</value>
+                <value>value="别名"</value>
+            </list>
+        </property>
+
+        <!--        key value-->
+        <property name="map">
+            <map>
+                <entry key="PHP" value="php"></entry>
+                <entry key="JAVA" value="java"></entry>
+            </map>
+        </property>
+
+        <property name="sets">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+            </set>
+        </property>
+
+        <property name="courseList">
+            <list>
+                <ref bean="courseList1"></ref>
+                <ref bean="courseList2"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="courseList1" class="com.demo.spring5.collectionType.Course">
+        <property name="cname" value="courseList1"></property>
+    </bean>
+    <bean id="courseList2" class="com.demo.spring5.collectionType.Course">
+        <property name="cname" value="courseList2"></property>
+    </bean>
+</beans>

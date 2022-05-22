@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="book" class="com.demo3.spring5.Bean.Book">
+        <property name="bookName" value="[[人间失格]]"></property>
+        <property name="bookPrice" value="10.1"></property>
+
+<!--      级联赋值  -->
+        <property name="bookStore" ref="bookStore"></property>
+        <property name="bookStore.bs_storename_a1b2c3" value="xinghuashudian"></property>
+    </bean>
+    <bean id="bookStore" class="com.demo3.spring5.Bean.BookStore">
+<!--        <property name="bs_storename" value="[[新华书店]]"></property>-->
+    </bean>
+</beans>

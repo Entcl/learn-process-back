@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xmlns:p命名空间-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--1-->
+    <context:component-scan base-package="com.demo.spring5.dao,com.demo.spring5.services"></context:component-scan>
+
+
+<!--过滤器只扫描-->
+<!--    <context:component-scan base-package="com.demo.spring5.services" use-default-filters="false">-->
+<!--        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"></context:include-filter>-->
+<!--    </context:component-scan>-->
+    
+<!--过滤器排除扫描-->
+<!--    <context:component-scan base-package="com.demo.spring5.services" use-default-filters="false">-->
+<!--        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>-->
+<!--    </context:component-scan>-->
+
+
+</beans>
