@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myBatis.maven.mapper.UserMapper">
+    <!--UserMapper.adduser();-->
+    <insert id="adduser">
+        insert into user values(null,'张三')
+    </insert>
+
+<!--    UserMapper.updateUser()-->
+    <update id="updateUser">
+        update user set u_name="李四" where u_id=20
+    </update>
+
+    <!--    UserMapper.deleteUser()-->
+    <delete id="deleteUser">
+        delete  from user where u_id=23
+    </delete>
+
+    <!--    UserMapper.selectUserById()-->
+    <select id="selectUserById" resultType="User">
+        select * from user  where u_id = 21
+    </select>
+
+<!--    UserMapper.getAllUser()-->
+<!--    org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.myBatis.maven.mapper.UserMapper.getAllUser-->
+<!--    <select id="selectAllUser" resultType="com.myBatis.maven.pojo.User">-->
+    <select id="getAllUser" resultType="User">
+        select * from user
+    </select>
+</mapper>
