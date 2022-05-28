@@ -91,7 +91,7 @@ public class testMybatis {
 
         List<User> list =mapper.getAllUser();
         list.forEach(user -> System.out.println(user));
-        System.out.println(list);
+//        System.out.println(list);
 
 
 //[User{u_id=16, u_name='张三'}, User{u_id=17, u_name='张三'}, User{u_id=18, u_name='张三'}, User{u_id=19, u_name='张三'}, User{u_id=20, u_name='李四'}, User{u_id=21, u_name='张三'}, User{u_id=22, u_name='张三'}]

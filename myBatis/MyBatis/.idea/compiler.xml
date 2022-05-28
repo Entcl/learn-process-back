@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Maven" />
+        <module name="MyBatis_MBG" />
+        <module name="MyBatis2" />
       </profile>
     </annotationProcessing>
   </component>
