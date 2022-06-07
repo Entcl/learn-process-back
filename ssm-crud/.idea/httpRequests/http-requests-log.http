@@ -1,0 +1,22 @@
+GET http://allBook
+
+###
+
+GET http://127.0.0.1:8080/jsp/allBook.jsp
+
+<> 2022-06-02T112622.404.html
+
+###
+
+GET http://jsp/allBook.jsp
+
+###
+
+GET http://jsp/allBook
+
+###
+
+GET http://allBook
+
+###
+

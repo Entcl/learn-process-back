@@ -49,4 +49,16 @@
         where u_name = #{username}
           and u_passwd = #{userpasswd}
     </select>
+
+    <!--    select-->
+    <!--    select *-->
+    <!--    from user-->
+    <!--    where u_name like concat("%xxx",#{xxx},"xxx%")-->
+    <!--    like "%"#{}"%"-->
+
+    <!--    int deltemore(@params ids string ids-->
+    <!--    <delete id="deltemore">-->
+    <!--        delete-->
+    <!--        * from user where id in($[ids])-->
+    <!--    </delete>-->
 </mapper>

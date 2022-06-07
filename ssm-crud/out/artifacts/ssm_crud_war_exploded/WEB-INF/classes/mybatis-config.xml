@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <!--批量定义别名-->
+    <typeAliases>
+        <package name="com.phj.pojo"/>
+    </typeAliases>
+
+    <!--定位引入mapper映射文件-->
+    <mappers>
+
+        <!-- 定位的是ssm-crud/src/main/java/com/phj/dao/下的BookMapper.xml -->
+        <mapper resource="com/phj/dao/BookMapper.xml"/>
+        <!--定位的是resources下的com.phj.dao(同名目录)的文件-->
+        <!--<mapper class="com.phj.dao.BookMapper"></mapper>-->
+
+<!--        <package name="com.phj.dao"/>-->
+
+    </mappers>
+
+
+</configuration>
