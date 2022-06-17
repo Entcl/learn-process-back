@@ -5,6 +5,7 @@ import com.phj.pojo.Books;
 import java.util.List;
 
 public interface BookService {
+
     //增加一个Book
     int addBook(Books book);
     //根据id删除一个Book
